@@ -15,12 +15,12 @@ h1 {
 body {
   margin: 0;
 }
-main {
+main { background-color: antiquewhite;
   display: flex;
   height: 80vh;
   width: 100%;
 }
-.Dryg {
+.Dryg { margin-right: 50px; border: dashed red;
   height: 500px;
   width: 500px;
   background-image: url(https://sun9-55.userapi.com/impg/D5gsmROmdIwm8F3CCrEU6WQKE9YGliaSAZ0-xg/GB5kfCz0pGk.jpg?size=517x626&quality=96&sign=1ff11ecece2a1a1c1230d21d8494618f&type=album);
@@ -49,5 +49,5 @@ img {
   width: 500px;
 }
 a{padding: 0; height: 500px;}
-.chmo{border-radius: 50%;} 
+.chmo{border: dashed red;} 
 a:hover{opacity: 0.8;}
