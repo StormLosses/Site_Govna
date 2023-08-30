@@ -1,4 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 h1 {
+  text-shadow: 1px 0 5px black;
   text-align: center;
   margin: 0;
   padding-top: 30px;
@@ -8,6 +12,7 @@ h1 {
   color: rgb(199, 206, 199);
 }
 .shapka {
+  box-shadow: 5px 5px 5px rgb(82, 219, 139);
   width: 100%;
   height: 200px;
   background-color: rgb(5, 83, 16);
@@ -15,12 +20,18 @@ h1 {
 body {
   margin: 0;
 }
-main { background-color: antiquewhite;
+main { 
+  background-color: antiquewhite;
   display: flex;
+  justify-content: center;
   height: 80vh;
   width: 100%;
 }
-.Dryg { margin-right: 50px; border: dashed red;
+.Dryg {
+  box-shadow: 5px 5px 5px rgb(82, 219, 139);
+  margin-top: 5%;
+  margin-right: 50px;
+  border: dashed red;
   height: 500px;
   width: 500px;
   background-image: url(https://sun9-55.userapi.com/impg/D5gsmROmdIwm8F3CCrEU6WQKE9YGliaSAZ0-xg/GB5kfCz0pGk.jpg?size=517x626&quality=96&sign=1ff11ecece2a1a1c1230d21d8494618f&type=album);
@@ -48,6 +59,15 @@ img {
   height: 500px;
   width: 500px;
 }
-a{padding: 0; height: 500px;}
-.chmo{border: dashed red;} 
-a:hover{opacity: 0.8;}
+a {
+  box-shadow: 5px 5px 5px rgb(82, 219, 139);
+  margin-top: 5%;
+  padding: 0;
+  height: 500px;
+}
+.chmo {
+  border: dashed red;
+}
+a:hover {
+  opacity: 0.8;
+}
