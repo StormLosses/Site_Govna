@@ -1,3 +1,10 @@
+@font-face {
+  src: url(Wavefont-Light.ttf);
+  font-family: 'lox_'; }
+@font-face {
+  src: url(YanoneKaffeesatz-Regular.ttf);
+  font-family: 'lox'; 
+}
 * {
   box-sizing: border-box;
 }
@@ -40,7 +47,7 @@ main {
   color: rgb(21, 230, 245);
   font-size: 30px;
   font-weight: 500;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "lox", Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   text-align: center;
   text-decoration: dotted;
@@ -77,7 +84,7 @@ a:hover {
   background-color: rgb(5, 83, 16);
 }
 .text-podval { margin: 0; font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "lox_", Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   text-shadow: 1px 0 5px black;
   text-align: right;
