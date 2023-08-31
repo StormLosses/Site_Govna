@@ -1,12 +1,15 @@
 @font-face {
-  src: url(./AmaticSC-Regular.ttf);
-  font-family: "loxx";
+  src: local("AmaticSC"), url(./AmaticSC-Regular.ttf);
+  font-family: 'loxx';
+  font-display: swap;
 }
 @font-face {
-  src: url(./YanoneKaffeesatz-Regular.ttf);
-  font-family: "lox";
+  src: local("YanoneKaffeesatz"), url(./YanoneKaffeesatz-Regular.ttf);
+  font-family: 'lox';
+  font-display: swap;
 }
 @font-face {
-  src: url(./Oswald-Regular.ttf);
-  font-family: "megaloh";
+  src: local("Oswald"), url(./Oswald-Regular.ttf);
+  font-family: 'megaloh';
+  font-display: swap;
 }
