@@ -1,16 +1,9 @@
 * {
   box-sizing: border-box;
 }
-h1 {
-  text-shadow: 1px 0 5px black;
-  text-align: center;
+
+body {
   margin: 0;
-  padding-top: 30px;
-  font-size: 76px;
-  font-weight: bold;
-  font-family:'megaloh';
-  text-transform: uppercase;
-  color: rgb(199, 206, 199);
 }
 .shapka {
   box-shadow: 5px 5px 5px rgb(82, 219, 139);
@@ -18,9 +11,18 @@ h1 {
   height: 200px;
   background-color: rgb(5, 83, 16);
 }
-body {
+.Zalupa {
+  text-shadow: 1px 0 5px black;
+  text-align: center;
   margin: 0;
+  padding-top: 30px;
+  font-size: 76px;
+  font-weight: bold;
+  font-family: 'megaloh';
+  text-transform: uppercase;
+  color: rgb(199, 206, 199);
 }
+
 main {
   background-color: antiquewhite;
   display: flex;
@@ -28,6 +30,7 @@ main {
   height: 80vh;
   width: 100%;
 }
+
 .Dryg {
   box-shadow: 5px 5px 5px rgb(82, 219, 139);
   margin-top: 5%;
